@@ -1,7 +1,25 @@
+html { 
+  background: url('http://www.psdgraphics.com/file/colorful-triangles-background.jpg') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
 
-   .profile {
+  
+.profile {
    background: lightgray;
    padding: 10px;
    marging: 10px;
    text-align: center;
+     
+   .profile h1 {
+   font-size: 16px;
+   text-transform: uppercase;
+ }
+
+ .profile img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
  }
